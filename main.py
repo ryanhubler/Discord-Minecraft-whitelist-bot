@@ -7,9 +7,6 @@ TOKEN = 'YOUR TOKEN GOES HERE'
 
 bot = commands.Bot(command_prefix='#', help_command=None) #sets your prefix
 
-@bot.event
-
-   
 
 @bot.command(name='whitelist')
 async def whitelist(ctx, *, mess):
