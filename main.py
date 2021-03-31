@@ -9,7 +9,7 @@ bot = commands.Bot(command_prefix='#', help_command=None) #sets your prefix
 
 @bot.event
 async def on_ready():
-    await bot.change_presence(activity=discord.Streaming(name="Made By Ryan Hubler", url="https://ryanhubler.com")) #changes the bot activity
+   
 
 @bot.command(name='whitelist')
 async def whitelist(ctx, *, mess):
