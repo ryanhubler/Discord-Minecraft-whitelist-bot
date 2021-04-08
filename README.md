@@ -21,7 +21,7 @@ rcon.password= <PUT A STRONG PASSWORD HERE YOU WILL NEED IT LATER>
 enable-rcon=true
 ```
 ## Usage
-1. To use the bot in discord you must create a bot in the discord developer portal and add its token to this line in main.py
+1. To use the bot in discord you must create a bot in the discord developer portal and add its token to this line in main.py 
 ```python
 TOKEN = 'YOUR TOKEN GOES HERE'
 ````
