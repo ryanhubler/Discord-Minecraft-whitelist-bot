@@ -21,7 +21,7 @@ rcon.password= <PUT A STRONG PASSWORD HERE YOU WILL NEED IT LATER>
 enable-rcon=true
 ```
 ## Usage
-1. To use the bot in discord you must create a bot in the discord developer portal and add its token to this line
+1. To use the bot in discord you must create a bot in the discord developer portal and add its token to this line in main.py
 ```python
 TOKEN = 'YOUR TOKEN GOES HERE'
 ````
@@ -31,7 +31,7 @@ with MCRcon("HOSTNAMEOFMCSERVER", "PASSWORDGOESHERE") as mcr: #send the whitelis
 ```
 3. Once your bot is in discord run main.py
 4. Then in discord use ```#whitelist <Minecraft Username>``` 
-5. The default prefix ```#``` can be changed by changing this line 
+5. The default prefix ```#``` can be changed by changing this line in main.py
 ```python
 bot = commands.Bot(command_prefix='#', help_command=None) #sets your prefix
 ``` 
