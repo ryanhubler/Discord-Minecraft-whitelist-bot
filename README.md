@@ -25,7 +25,7 @@ enable-rcon=true
 ```python
 TOKEN = 'YOUR TOKEN GOES HERE'
 ````
-2. Adding your hostname (server ip address or url) and your strong password from earlier
+2. Adding your hostname (server ip address or domain) and your strong password from earlier
 ```python
 with MCRcon("HOSTNAMEOFMCSERVER", "PASSWORDGOESHERE") as mcr: #send the whitelist command to minecraft server
 ```
